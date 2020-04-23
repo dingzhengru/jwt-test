@@ -1,0 +1,27 @@
+{
+  "name": "jwt-test",
+  "version": "1.0.0",
+  "description": "JWT(JSON Web Token): 代替傳統 Session 辨識使用者的方式",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingzhengru/jwt-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dingzhengru/jwt-test/issues"
+  },
+  "homepage": "https://github.com/dingzhengru/jwt-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
