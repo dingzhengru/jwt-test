@@ -1,5 +1,5 @@
 # jwt-test
-JWT(JSON Web Token): 代替傳統 Session 辨識使用者的方式
+JWT(JSON Web Token)
 
 ## JWT 認證流程
 * 前端傳送使用者資料 => 後端確認並找到該使用者資料 => 利用使用者資料與私鑰(自訂)創建 token
